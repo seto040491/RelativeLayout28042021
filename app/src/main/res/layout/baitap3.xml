@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Top"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Top Content Here"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"/>
+    <TextView
+        android:id="@+id/second"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Second"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#2196F3"/>
+    <TextView
+        android:id="@+id/first"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="First"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#8BC34A"/>
+    <TextView
+        android:id="@+id/three"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Three"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#FF9800"/>
+    <TextView
+        android:id="@+id/last"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Bottom Content Here"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"/>
+
+</RelativeLayout>
